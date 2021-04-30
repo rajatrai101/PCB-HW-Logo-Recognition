@@ -1,0 +1,17 @@
+10 internet + 10 in-house images  (Annotated images) = (20 images) -> augment = 200 images
+Split 200 into test/train (shuffled randomly) -> 140 train + 20 val + 40 test
+
+-------------------------------------------------------------------------------------
+Proposed:(7:1:2)or(6:2:2) 
+10 internet + 10 in-house images(7 training,1 val,2 test)  (Annotated images) = (17 images) -> augment = 170 images [Train][internet+inhouse]
+(1 images) -> augment = 10 images [VAL] [in-house + opt [internet]]
+(2 images) -> augment = 20 images [TEST] [JUST in-house]
+-------------------------------------------------------------------------------------
+Internet Images:
+1) Fan-dom site ( scapped off ; Clean data)
+2) Google Image Scrapper (Not so clean;)
+-------------------------------------------------------------------------------------
+ NOTES:
+ * Try using white instead of black bkg
+ * research on this ^
+ * Compare wrt to black and white bkg
